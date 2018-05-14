@@ -1,0 +1,21 @@
+{
+  "name": "json-parsers-benchmark",
+  "version": "0.1.0",
+  "description": "JSON parsers benchmarks including parsers supporting big ints",
+  "author": "Tomek Dyla",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node -P ./tsconfig.json ./benchmarks/index.ts"
+  },
+  "dependencies": {
+    "@types/benchmark": "^1.0.31",
+    "@types/node": "^10.0.8",
+    "benchmark": "^2.1.4",
+    "json-bigint": "^0.2.3",
+    "json-bignum": "^0.0.3",
+    "microtime": "^2.1.7",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  }
+}

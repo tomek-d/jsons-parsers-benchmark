@@ -1,0 +1,17 @@
+{
+    "name": "my name",
+    "number": 123,
+    "an-array": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "prop1": {
+        "age": 22,
+        "text1": "some short text",
+        "text2": "some longer text"
+    },
+    "decimal": 123.456789
+}
